@@ -12,6 +12,11 @@
   "name": "Aaron PWA",
   "short_name": "Aaron PWA",
   "description": "A Demo for Next-PWA",
+  "url_handlers": [
+    {
+      "origin": "https://aaron-pwa.netlify.app"
+    }
+  ],
   "icons": [
       {
           "src": "/icon-192x192.png",
