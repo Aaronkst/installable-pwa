@@ -3,21 +3,10 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
-  "scope_url": "https://aaron-pwa.netlify.app",
   "start_url": "/",
-  "intent_filters": {
-    "scope_url_scheme": "https",
-    "scope_url_host": "aaron-pwa.netlify.app",
-    "scope_url_path": "/"
-  },
   "name": "Aaron PWA",
   "short_name": "Aaron PWA",
   "description": "A Demo for Next-PWA",
-  "url_handlers": [
-    {
-      "origin": "https://aaron-pwa.netlify.app"
-    }
-  ],
   "protocol_handlers": [
     {
       "protocol": "aaron+pwa",
