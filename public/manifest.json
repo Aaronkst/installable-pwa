@@ -1,8 +1,9 @@
 {
-  "theme_color": "#3579f6",
+  "theme_color": "#000000",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
+  "scope_url": "https://aaron-pwa.netlify.app",
   "start_url": "/",
   "intent_filters": {
     "scope_url_scheme": "https",
