@@ -9,7 +9,7 @@
   "description": "A Demo for Next-PWA",
   "protocol_handlers": [
     {
-      "protocol": "aaron+pwa",
+      "protocol": "web+aaron-pwa",
       "url": "/?id=%s"
     }
   ],
