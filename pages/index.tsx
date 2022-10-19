@@ -1,6 +1,9 @@
 import type { NextPage } from "next";
+import { useRouter } from "next/router";
 
 const Home: NextPage = () => {
+  const router = useRouter();
+  const { id } = router.query;
   return (
     <main className="mx-auto">
       <section className="bg-black p-5 py-16">
@@ -24,6 +27,7 @@ const Home: NextPage = () => {
         <button className="p-2 my-4 bg-indigo-900 rounded-md text-white font-black text-center w-full hover:bg-indigo-600 hover:drop-shadow-lg">
           Keep me Posted &rarr;
         </button>
+        <p>Deep Link: {id || "null"}</p>
       </section>
     </main>
   );

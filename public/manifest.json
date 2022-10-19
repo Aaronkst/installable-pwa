@@ -20,8 +20,8 @@
   ],
   "protocol_handlers": [
     {
-      "protocol": "aaronpwa",
-      "url": "/%s"
+      "protocol": "aaron+pwa",
+      "url": "/?id=%s"
     }
   ],
   "icons": [
