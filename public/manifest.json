@@ -18,6 +18,12 @@
       "origin": "https://aaron-pwa.netlify.app"
     }
   ],
+  "protocol_handlers": [
+    {
+      "protocol": "aaronpwa",
+      "url": "/%s"
+    }
+  ],
   "icons": [
       {
           "src": "/icon-192x192.png",
