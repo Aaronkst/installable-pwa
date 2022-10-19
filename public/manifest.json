@@ -1,9 +1,14 @@
 {
   "theme_color": "#3579f6",
   "background_color": "#ffffff",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
+  "intent_filters": {
+    "scope_url_scheme": "https",
+    "scope_url_host": "aaron-pwa.netlify.app",
+    "scope_url_path": "/"
+  },
   "name": "Aaron PWA",
   "short_name": "Aaron PWA",
   "description": "A Demo for Next-PWA",
